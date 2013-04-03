@@ -1,0 +1,8 @@
+# Jekyll
+exclude: nbproject, README.md, CNAME
+permalink: /:title/
+url: http://js-static-analysis.simplytestable.com
+
+# Site
+simplytestable:
+    title: Simply Testable JS Static Analysis Test Suite
