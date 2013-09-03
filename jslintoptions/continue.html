@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simply Testable JS Static Analysis continue test</title>
+    <script type="text/javascript">
+var index;
+var collection = [1, 2, 3, 4, 5];
+var result = 0;
+
+for (index = 0; index < collection.length; index = index + 1) {
+    if (index < 3) {
+        continue;
+    }
+
+    result = index;
+};        
+    </script>
+  </head>
+  <body>
+      <p>Hello World</p>
+  </body>
+</html>
