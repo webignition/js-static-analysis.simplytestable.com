@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simply Testable JS Static Analysis es5 test</title>
+    <script type="text/javascript">
+var x = {
+    real: 10,
+    get x () {
+        "use strict";
+        return this.real / 2;
+    },
+    set x (value) {
+        "use strict";
+        this.real = value;
+    }
+};
+    </script>
+  </head>
+  <body>
+      <p>Hello World</p>
+  </body>
+</html>
