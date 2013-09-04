@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simply Testable JS Static Analysis vars test</title>
+    <script type="text/javascript">
+var x = 1;
+var y = 2;
+
+var z = function () {
+    "use strict";
+    var x = 3;
+    var y = 4;
+
+    x = x + y;
+};
+    </script>
+  </head>
+  <body>
+      <p>Hello World</p>
+  </body>
+</html>
